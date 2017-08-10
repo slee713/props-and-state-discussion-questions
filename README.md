@@ -8,6 +8,6 @@ const user = {name: 'Spider Man', age: 32}
 < UserDetail title="Profile Page" dog="Fido"  user={ user } />
 ```
 
-3. Take a look at Slack. Pretend you were going to recreate this. What components would you have? What differnet pieces of state would you need to keep track of? What components would need to receive those as props? 
+3. Take a look at Slack. Pretend you were going to recreate this. What components would you have? What different pieces of state would you need to keep track of? What components would need to receive those as props? 
 
 
