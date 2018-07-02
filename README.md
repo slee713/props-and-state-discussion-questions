@@ -1,13 +1,13 @@
-# Props and State Discussion Questions
+# Props vs. State Discussion Questions
 
-1. What is the difference between props vs. state in React? When would you use state instead of props?
-2. Assuming `UserDetail` is a functional component, what will it's `props` look like if it's rendered as below?
+1. What is the difference between *props* and *state* in React?
+2. When would you use state instead of props?
+3. Assuming `UserDetail` is a component, what will it's *props* be if it's rendered as follows:
 
-```javascript
+```js
 const user = {name: 'Spider Man', age: 32}
-< UserDetail title="Profile Page" dog="Fido"  user={ user } />
+
+<UserDetail title="Profile Page" dog="Fido" user={user} />
 ```
 
-3. Take a look at Slack. Pretend you were going to recreate this. What components would you have? What different pieces of state would you need to keep track of? What components would need to receive those as props? 
-
-
+4. Take a look at `https://learn.co`. Pretend you were going to recreate a specific page. What top level components would you have? What props would they receive and what state would they own? What components would they have as children?
