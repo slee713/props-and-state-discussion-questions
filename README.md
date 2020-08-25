@@ -2,7 +2,7 @@
 
 1. What is the difference between *props* and *state* in React?
 2. When would you use state instead of props?
-3. Assuming `UserDetail` is a component, what will it's *props* be if it's rendered as follows:
+3. Assuming `UserDetail` is a component, what will its *props* be if it's rendered as follows:
 
 ```js
 const user = {name: 'Spider Man', age: 32}
